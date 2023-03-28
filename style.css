@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  
+}
+
+#gameboard {
+  display: flex;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(227, 227, 199)  
+}
+
+.beige {
+  background-color: aliceblue;
+}
+
+.brown {
+  background-color: azure;
+}
+
+#info {
+  height: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.highlight {
+  background: red;
+}
